@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        header {
+            border: 1px solid forestgreen;
+            background-color: rgb(203, 224, 203);
+            border-radius: 5px; padding: 1.5625%;
+            width: 95%; height: 120px; margin: 1%;
+            color: forestgreen;
+        }
+        #top {
+            float: right; 
+            background-color: white;
+            
+        }
+        #logo {
+            float: left;
+        }
+        #ad {
+            width: 200px; height: 200px; float:left;
+            text-align: center;
+        }
+        header ul {
+            list-style-type: none;
+            border : 1px solid black;
+            
+        }
+        header ul li {
+            display: inline-block;
+            border-top: 3px solid white;
+            padding : 0;
+        }
+       header ul li:hover {
+        background-color: red;
+       }
+        nav {
+            width: 95%; height: 60px;
+            border: 1px solid forestgreen;
+            border-radius: 5px; padding: 1.5625%; margin: 1%;
+            text-align: left; color: forestgreen;
+        }
+        section {
+            position: relative;
+            background-size: cover;
+            width: 55%; height: 300px; padding: 1.5625%; margin: 1%;
+            border: 1px solid forestgreen; 
+            float: left; text-align: left; color: forestgreen; 
+        }
+        aside {
+            float: right;  padding: 1.5625%; margin: 1%;
+            width: 30%; height: 300px; color: forestgreen;
+            border: 1px solid forestgreen; text-align: left;
+        }
+        footer {
+            clear: both;
+            border: 1px solid forestgreen; padding: 1.5625%; margin: 1%;
+            width: 95%; height: 120px; text-align: left;
+            border-radius: 10px; color: forestgreen;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="../html&CSS/images/logo.jpg" width="200px" height="100px">
+        </div>
+      <div id="ad">
+        <br><br>
+        <b>상단 헤더</b>
+      </div>
+       <div id="top">
+        <ul>
+            <li>로그인</li>
+            <li>회원가입</li>
+            <li>사이트 맵</li>
+            <li>회사소개</li>
+            </ul>
+       </div>
+       
+    </header>
+        <nav>
+    <h3>내비게이션 메뉴</h3>
+    </nav>
+    <section>
+        <h3> 메인 콘텐츠</h3>
+       
+    </section>
+    <aside>
+        <h3>사이드바</h3>
+    </aside>
+    <footer>
+        <h3>하단 푸터</h3>
+    </footer>
+    
+    
+</body>
+</html>

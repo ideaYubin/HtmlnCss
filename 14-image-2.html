@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluid Image</title>
+</head>
+<body>
+    <picture>
+        <source srcset="images/lion.jpg" media="(min-width:900px)">
+        <source srcset="images/dog.jpg" media="(min-width:700px)">
+        <source srcset="images/cat.jpg" media="(min-width:300px)">
+        <img src="images/cat.jpg" alt="fill my heart" style="width: 100%;">
+    </picture>
+</body>
+</html>

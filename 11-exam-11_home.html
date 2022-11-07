@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>홈페이지 만들어보기</title>
+    <style>
+        #container {
+            position: relative;
+            text-align: right;
+            margin-top: 50%; margin-right: 10%;
+            color: white;
+        }
+        h2 { font-size: 2em;}
+        h1 { font-size: 3em; color: #736eb1;}
+        a:link, a:visited {
+            text-decoration: none; color: #736eb1;
+        }
+        a:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+        #bg {
+            position: fixed;
+            left: 0; top: 0;
+            width: auto; height: auto;
+            min-width: 100%; min-height: 100%;
+            z-index: -50;
+            background: url(images/beach.jpg) left top no-repeat;
+            background-size:auto;
+        }
+
+    </style>
+</head>
+<body>
+    <video src="media/Space.mp4" autoplay loop muted poster="images/stars.jpg" id="bg"></video>
+    <div id="container">
+        <h2>This, too, shall pass away </h2>
+        <h1><a href="https://blog.naver.com/wonkung/17776707" >이 또한 지나가리라</a></h1>
+    </div>
+</body>
+</html>

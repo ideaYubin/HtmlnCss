@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        header {
+            border: 1px solid forestgreen;
+            border-radius: 5px; padding: 1.5625%;
+            width: 95%; height: 80px; margin: 1.5625%;
+            text-align: left;
+        }
+        nav {
+            width: 95%; height: 80px;
+            border: 1px solid forestgreen;
+            border-radius: 5px; padding: 1.5625%; margin: 1.5625%;
+            text-align: left;
+        }
+        section {
+            position: relative;
+            width: 55%; height: 150px; padding: 1.5625%; margin: 1.5625%;
+            border: 1px solid forestgreen; 
+            float: left; 
+        }
+        aside {
+            float: right;  padding: 1.5625%; margin: 1.5625%;
+            width: 30%; height: 150px;
+            border: 1px solid forestgreen; 
+        }
+        footer {
+            clear: both; background-color: darkcyan;
+            border: 1px solid forestgreen; margin: 1.5625%; padding: 10px;
+            width: 95%; height: 200px; text-align: left;
+            border-radius: 10px; 
+        }
+        #address {
+            border-top: 1px solid gray; 
+            background-color: white; float: left;
+            width: 90%; height: 80%;
+            
+        }
+        #customer {
+            float: right; display: inline;
+            padding: 1%;
+            font-size: 25px;
+            color: forestgreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>상단 헤더</h3>
+    </header>
+        <nav>
+    <h3>내비게이션 메뉴</h3>
+    </nav>
+    <section>
+        <h3> 메인 콘텐츠</h3>
+    </section>
+    <aside>
+        <h3>사이드바</h3>
+    </aside>
+    <footer>
+        <h3>하단 푸터</h3>
+        <div id="address">
+            <div>
+                <address>
+                <p>구바토 손해보험협회 | 대표이사 : 강은희 | 사업자등록번호 : 123-45-67894 </p>
+                <p>대전<보험>협회 | 서울시 강남구</p>
+                <br>
+                <p> Copyright ©. All rights resered.</p>
+            </div>
+            <div id="customer">
+                <p>고객센터 1588-1234</p>
+                <img src="../html&CSS/images/facebook.png">
+                <img src="../html&CSS/images/band.png">
+                <img src="../html&CSS/images/twitter.png">
+            </div>
+
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
