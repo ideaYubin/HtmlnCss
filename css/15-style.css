@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Nanum Pen Script', cursive;
+}
+body {
+    background: rgb(243, 214, 176);
+}
+#container {
+    width: 320px; margin: 50px auto;
+}
+.card {
+    position: relative;
+    width: 300px; height: 500px; margin: 20px 10px;
+    border: 1px solid #2d2d2e; background-color: #ffffff;
+}
+.words {
+    position: absolute;
+    left: 10px; top: 250px; padding: 10px;
+    text-align: center;
+}
+@media secreen and (min-width:500px) and (max-width:1000px) {
+    #container {
+        width: 750px; margin: 50px auto;
+    }
+    .card {
+        position: relative;
+        width: 500px; height: 250px; margin: 20px 10px;
+        border: 1px solid gray; background-color: #ffffff;
+    }
+    .words .wolo .wowo {
+        position: absolute;
+        left: 310px; top: 50px; font-weight: 5rem;
+        text-align: center; width: 200px; 
+    }
+}
+@media screen and (min-width:1100px) {
+    #container {
+        width: 1710px; margin: 50px auto;
+    }
+    .card {
+        position: relative;
+        float: left;
+        width: 500px; height: 200px; margin: 10px;
+        border: 1px solid #9e9e9e;
+        background-color: #ffffff;
+    }
+    .wolo {
+        position: absolute;
+        left: 280px; top: 20px;
+        text-align: center; width: 200;
+    }
+
+    .words {
+        position: absolute;
+        left: 280px; top: 20px;
+        text-align: center; width: 200;
+    }
+    .wowo {
+        position: absolute;
+        left: 280px; top: 30px;
+        text-align: center; width: 200;
+    }
+    img {
+        width: 55%; height: 100%;
+    }
+}
